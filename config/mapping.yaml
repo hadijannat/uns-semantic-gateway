@@ -1,0 +1,20 @@
+# "Digital Twin" Definition
+# Maps Legacy "Brownfield" Tags -> Unified Namespace "Greenfield" Addresses
+tags:
+  "legacy/plc_01/register_4001":
+    uns_topic: "Acme/Berlin/Extrusion/Line1/Oven/Temperature"
+    unit: "Celsius"
+    asset_id: "OVEN-01"
+    description: "Main Heating Zone"
+
+  "legacy/plc_01/register_4002":
+    uns_topic: "Acme/Berlin/Extrusion/Line1/Conveyor/Speed"
+    unit: "m/s"
+    asset_id: "CONV-01"
+    description: "Infeed Belt Speed"
+
+  "legacy/plc_01/register_4003":
+    uns_topic: "Acme/Berlin/Extrusion/Line1/Pump/Pressure"
+    unit: "bar"
+    asset_id: "PUMP-01"
+    description: "Hydraulic System Pressure"
